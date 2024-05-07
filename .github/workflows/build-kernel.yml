@@ -32,7 +32,7 @@ jobs:
           
       - name: Build kernel
         run: |
-          export KBUILD_BUILD_USER="xero"
+          export KBUILD_BUILD_USER="ManitnjG"
           export KBUILD_BUILD_HOST="builder"
           export PATH=$GITHUB_WORKSPACE/clang/bin:${PATH}
           args="                  ARCH=arm64 \
